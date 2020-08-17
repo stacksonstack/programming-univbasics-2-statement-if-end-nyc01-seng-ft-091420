@@ -1,3 +1,5 @@
-if false
-  puts "This code does not run. You will not see this in IRB"
+if Time.now % 2 == 0
+  puts "Even!"
+elsif Time.now %2 != 0 
+  puts "Odd!"
 end
